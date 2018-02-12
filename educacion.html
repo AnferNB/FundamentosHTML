@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="author" content="Andrés Nieva">
+	<meta name="keywords" content="html, css, xml, javascript">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="Ejercicio Etiquetas Semánticas">
+
+	<title>Curriculum Vitae Andrés Nieva</title>
+
+</head>
+
+<body>
+
+	<svg width="300px" height="150px" viewBox="0 0 600 400"> <!-- width = ancho, height = alto, viewBox = espacio de trabajo -->
+		<image xlink:href="Logo/\Logo.svg" width="400px" height="600px" x="10px" y="10px"></image> <!-- width="400px" height="400px", Commo estamos trabajando con imágenes vectoriales, es importante definir estos atributos, de lo contrario el tamaño por defecto de la imagen será 0px x 0px -->
+	</svg>	
+	
+	<h1>Hoja de Vida</h1>
+
+<h2>Datos Personales</h2>
+<h2>Nombres</h2>
+<h3>Andrés Fernando</h3>
+<h2>Apellidos</h2>
+<h3>Nieva Borrero</h3>
+<h2>Lugar y Fecha de Nacimiento</h2>
+<h3>Palmira, Abril 16 de 1981</h3>
+
+<h1>Enlaces de Menú</h1>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>		
+<li><a href="educacion.html">Educación</a></li>
+<li><a href="experiencia.html">Experiencia</a></li>
+</ul>
+
+<h2>Educación</h2>
+
+<table border="1">
+	
+<tr>
+<thead>
+	<th>Año</th>
+	<th>Institución</th>
+	<th>Lugar</th>
+	<th>¿Culminó?</th>
+</thead>
+
+</tr>
+
+<tr>
+<tbody>
+	<td>1998</td>
+	<td>Instituto Técnico Industrial Fray Luis Amigó</td>
+	<td>Palmira, Valle</td>
+	<td>Si</td>
+</tbody>
+</tr>
+
+
+<tr>
+<tbody>
+	<td>2017</td>
+	<td>SENA, Centro Agroindustrial y Fortalecimiento Empresarial de Casanare</td>
+	<td>Yopal, Casanare</td>
+	<td>Si</td>
+</tbody>
+</tr>
+
+<tr>
+<tbody>
+	<td>2017</td>
+	<td>SENA, Centro Agroindustrial y Fortalecimiento Empresarial de Casanare</td>
+	<td>Yopal, Casanare</td>
+	<td>Si</td>
+</tbody>
+</tr>
+</table>
+
+<h2>Agregar Estudios</h2>
+
+
+<p>Año:
+<select>
+	<option>2015</option>
+	<option>2016</option>
+	<option>2017</option>
+	<option>2018</option>
+</select>
+</p>
+
+<p>Institución:
+<input type="text" name="nombre" required/>
+</p>
+
+<p>Lugar:
+	<textarea name="area_texto" rows="2" cols="20"></textarea> <br>
+</p>
+
+<p>¿Culminó?
+				<input type="radio">Si 
+				<input type="radio">No
+</p>
+
+<p><input type="submit" name="Enviar" value="Enviar"></p>
+
+
+
+
+
+</body>
+</html>
